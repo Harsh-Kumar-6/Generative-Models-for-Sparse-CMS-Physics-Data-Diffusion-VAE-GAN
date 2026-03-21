@@ -3,7 +3,6 @@
 [![CERN-CMS](https://img.shields.io/badge/Experiment-CMS-blue)](https://cms.cern/) 
 [![Python-3.9+](https://img.shields.io/badge/Python-3.9%2B-green)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/Framework-PyTorch-orange)](https://pytorch.org/)
-# 🚀 CMS Detector Simulation using Generative Models
 
 This repository presents a **Proof-of-Concept (PoC)** for simulating low-level CMS detector data using modern generative models. The primary focus is on **Denoising Diffusion Probabilistic Models (DDPMs)**, with comparative analysis against **Variational Autoencoders (VAEs)** and **Generative Adversarial Networks (GANs)**.
 
@@ -126,6 +125,9 @@ Due to computational constraints (T4 GPU), this Proof-of-Concept was trained on 
 
 ---
 
+## 📄 Project Report
+
+The detailed analysis, experiments, and results are documented in [report.pdf](./CMS_Diffusion_Report.docx.pdf)
 
 ## 🛠️ Repository Structure
 
