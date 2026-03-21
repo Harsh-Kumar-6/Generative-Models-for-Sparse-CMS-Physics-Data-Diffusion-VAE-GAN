@@ -107,23 +107,6 @@ Evaluates global distribution similarity in high-dimensional space.
 
 ---
 ---
-
-## 🛠️ Repository Structure
-
-```text
-├── models/             # Pre-trained weights (.pth)
-├── notebooks/          # Step-by-step experiment logs
-│   ├── 1_diffusion.ipynb
-│   ├── 2_vae.ipynb
-│   └── 3_gan.ipynb
-├── src/                # Core implementation
-│   ├── arch_ddpm.py    # UNet and Denoising logic
-│   ├── baselines.py    # VAE & GAN architectures
-│   └── utils.py        # H5 Data loaders & Plotting
-├── requirements.txt
-└── README.md
-
-
 git clone [https://github.com/your-username/cms-diffusion-simulation.git](https://github.com/your-username/cms-diffusion-simulation.git)
 cd cms-diffusion-simulation
 pip install -r requirements.txt
@@ -143,9 +126,20 @@ Due to computational constraints (T4 GPU), this Proof-of-Concept was trained on 
 
 ---
 
-## ⚙️ Installation & Usage
 
-```bash
-git clone https://github.com/your-username/cms-diffusion-simulation.git
-cd cms-diffusion-simulation
-pip install -r requirements.txt
+## 🛠️ Repository Structure
+
+```text
+├── models/             # Pre-trained weights (.pth)
+├── notebooks/          # Step-by-step experiment logs
+│   ├── 1_diffusion.ipynb
+│   ├── 2_vae.ipynb
+│   └── 3_gan.ipynb
+├── src/                # Core implementation
+│   ├── arch_ddpm.py    # UNet and Denoising logic
+│   ├── baselines.py    # VAE & GAN architectures
+│   └── utils.py        # H5 Data loaders & Plotting
+├── requirements.txt
+└── README.md
+
+
